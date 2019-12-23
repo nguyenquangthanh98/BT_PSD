@@ -16,11 +16,11 @@ server.use(express.urlencoded())
 
 server.use('/', express.static(path.join(__dirname, './public')))
 
-server.use('/api/v4/user', userRouter);
-server.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '/index.html'))
+// server.use('/api/v4/user', userRouter);
+// server.get('/', function(req, res) {
+// res.sendFile(path.join(__dirname, '/index.html'))
 
-})
+// })
 
 var isLogin = false;
 
