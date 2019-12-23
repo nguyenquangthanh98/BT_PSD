@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../../../lib/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../../css/style.css">
+<link rel="stylesheet" href="../../../lib/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../../../lib/css/animate.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-md navbar-dark   fixed-top">
+            <div class="container">
+                <a class="navbar-brand text-uppercase font-weight-bold" style="font-size: 1.3em;" href="#">N<span
+                            class="text-primary">Q</span>T</a>
+                <button class="navbar-toggler border-light" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item  active">
+                            <a class="nav-link  text font-weight-bold text-uppercase text-light" style="font-size: 1.2em" href="./">Home</a>
+                        </li>
+                        <li class="nav-item  text">
+                            <a class="nav-link text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./services">services</a>
+                        </li>
+                        <li class="nav-item text">
+                            <a class="nav-link  text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./features">features</a>
+                        </li>
+                        <li class="nav-item text">
+                            <a class="nav-link   text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item text">
+                            <a class="nav-link  text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./contact">contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Just default Section -->
+    <div class="container-fluid default" style="padding: 80px 0;">
+        <div class="container ">
+            <div class="row">
+                <div class="col-sm-6" style="padding-bottom: 30px;">
+                    <p class="title text-uppercase text-light wow bounceInLeft" data-wow-duration="1.5s">Just default Section</p>
+                    <hr class="divider wow bounceInLeft" data-wow-duration="1.5s">
+                    <p class="text-justify text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta architecto molestias eaque sapiente consequatur harum velit provident excepturi, voluptatem quo exercitationem ut nam eveniet quasi modi eius dolor magni sed!</p>
+                    <p class="text-justify text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consectetur error doloremque, beatae pariatur asperiores necessitatibus repellat minima, dolor saepe amet quisquam, labore libero ad aperiam cum assumenda! Cupiditate, repellat.
+                    </p>
+                    <button type="button" class="btn btn-outline-secondary text-uppercase">Visit Me</button>
+                </div>
+                <div class="col-sm-6">
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/w1B99A7N8Y0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Just default Section -->
+    <!-- Twitter -->
+    <div class="section-twitter" style="padding:80px 0">
+        <div class="container">
+            <div class="title-twitter text-uppercase text-light">
+                <h3 class="tieude wow bounceInLeft" data-wow-duration="1.5s">twitter</h3>
+                <hr class="divider wow bounceInLeft " data-wow-duration="1.5s " style="border-color:#fff ; ">
+            </div>
+            <div class="sub-title-twitter text-light ">
+                <p style="font-size: 1.5em;text-align: justify; ">Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé Cake donut cupcake <strong>lollipop</strong> soufflé</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Twitter -->
+</body>
+<script src="../../../lib/wow.js "></script>
+
+<script src="../../../lib/popper.min.js "></script>
+<script src="../../../lib/jquery-3.4.1.min.js "></script>
+<script src="../../../lib/js/bootstrap.min.js "></script>
+<script>
+    var wow = new WOW({
+        boxClass: 'wow ', // animated element css class (default is wow)
+        animateClass: 'animated ', // animation css class (default is animated)
+        offset: 0, // distance to the element when triggering the animation (default is 0)
+        mobile: true, // trigger animations on mobile devices (default is true)
+        live: true, // act on asynchronously loaded content (default is true)
+        callback: function(box) {
+            // the callback is fired every time an animation is started
+            // the argument that is passed in is the DOM node being animated
+        },
+        scrollContainer: null, // optional scroll container selector, otherwise use window,
+        resetAnimation: true, // reset animation on end (default is true)
+    });
+    wow.init();
+</script>
+
+</html>

@@ -1,0 +1,21 @@
+B1: git init
+
+
+
+res.send
+res.json
+res.redirect
+res.download
+res.getFile;
+
+Router:
+
+Get:
+    get.req.param;
+    get.req.query;
+
+
+Post: ( truyền ngầm )
+    req.param;
+    req.query;
+    req.body

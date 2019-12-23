@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Services</title>
+    <link rel="stylesheet" href="../../../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../lib/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../lib/css/animate.css">
+</head>
+
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-md navbar-dark   fixed-top">
+            <div class="container">
+                <a class="navbar-brand text-uppercase font-weight-bold" style="font-size: 1.3em;" href="#">N<span
+                            class="text-primary">Q</span>T</a>
+                <button class="navbar-toggler border-light" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item  active">
+                            <a class="nav-link  text font-weight-bold text-uppercase text-light" style="font-size: 1.2em" href="./">Home</a>
+                        </li>
+                        <li class="nav-item  text">
+                            <a class="nav-link text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./services">services</a>
+                        </li>
+                        <li class="nav-item text">
+                            <a class="nav-link  text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./features">features</a>
+                        </li>
+                        <li class="nav-item text">
+                            <a class="nav-link   text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item text">
+                            <a class="nav-link  text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./contact">contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Services -->
+    <section class="bg-info" style="padding: 80px 0;">
+        <div class="container">
+            <a href="/download"><button type="button " class="btn btn-primary mt-3 font-weight-bold " style=" padding: 5px 70px; ">Link 18+</button></a>
+
+
+            <p class="title text-light text-uppercase mt-5 wow bounceInLeft" data-wow-duration="1.5s" id="services">Services</p>
+            <hr class="divider wow bounceInLeft" data-wow-duration="1.5s">
+            <div class="row ">
+                <div class="col-lg-3 mt-5 ">
+                    <img class="img-services" src="../../../image/services-coffee.png" alt="">
+                    <p class="py-3 text-light text-uppercase">Coffee</p>
+                    <p class="text-justify text-light" style="font-size: small;">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+                </div>
+                <div class="col-lg-3 mt-5">
+                    <img class="img-services" src="../../../image/services-dslr.png" alt="">
+                    <p class="py-3 text-light text-uppercase">Instant</p>
+                    <p class="text-justify text-light" style="font-size: small;">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+                </div>
+                <div class="col-lg-3 mt-5">
+                    <img class="img-services" src="../../../image/services-frame.png" alt="">
+                    <p class="py-3 text-light text-uppercase">Serious</p>
+                    <p class="text-justify text-light" style="font-size: small;">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+                </div>
+                <div class="col-lg-3 mt-5">
+                    <img class="img-services" src="../../../image/services-instant.png" alt="">
+                    <p class="py-3 text-light text-uppercase">Frame</p>
+                    <p class="text-justify text-light" style="font-size: small;">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+<script src="../../../lib/wow.js "></script>
+
+<script src="../../../lib/popper.min.js "></script>
+<script src="../../../lib/jquery-3.4.1.min.js "></script>
+<script src="../../../lib/js/bootstrap.min.js "></script>
+<script>
+    var wow = new WOW({
+        boxClass: 'wow ', // animated element css class (default is wow)
+        animateClass: 'animated ', // animation css class (default is animated)
+        offset: 0, // distance to the element when triggering the animation (default is 0)
+        mobile: true, // trigger animations on mobile devices (default is true)
+        live: true, // act on asynchronously loaded content (default is true)
+        callback: function(box) {
+            // the callback is fired every time an animation is started
+            // the argument that is passed in is the DOM node being animated
+        },
+        scrollContainer: null, // optional scroll container selector, otherwise use window,
+        resetAnimation: true, // reset animation on end (default is true)
+    });
+    wow.init();
+</script>
+
+</html>

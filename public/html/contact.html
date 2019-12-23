@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../../../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../lib/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../lib/css/animate.css">
+</head>
+
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-md navbar-dark   fixed-top">
+            <div class="container">
+                <a class="navbar-brand text-uppercase font-weight-bold" style="font-size: 1.3em;" href="#">N<span
+                            class="text-primary">Q</span>T</a>
+                <button class="navbar-toggler border-light" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item  active">
+                            <a class="nav-link  text font-weight-bold text-uppercase text-light" style="font-size: 1.2em" href="./">Home</a>
+                        </li>
+                        <li class="nav-item  text">
+                            <a class="nav-link text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./services">services</a>
+                        </li>
+                        <li class="nav-item text">
+                            <a class="nav-link  text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./features">features</a>
+                        </li>
+                        <li class="nav-item text">
+                            <a class="nav-link   text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item text">
+                            <a class="nav-link  text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./contact">contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Contact -->
+    <div class="section-contact " style="padding-top:80px;padding-bottom: 80px; ">
+        <div class="container ">
+            <div class="title-twitter text-uppercase text-light ">
+                <h3 class="wow bounceInLeft " data-wow-duration="1.5s" id="contact">Contact</h3>
+                <hr class="divider  wow bounceInLeft " data-wow-duration="1.5s " style="border-color:#fff ; ">
+            </div>
+            <div class="row mt-5 ">
+                <div class="col-sm-6 ">
+                    <div class="input-group mb-4 ">
+                        <input type="text " class="form-control py-4 px-2 text-uppercase text-light " placeholder=FullName: aria-label="Recipient 's username" aria-describedby="basic-addon2">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control py-4 px-2 text-uppercase text-light " placeholder=Gmail: aria-label="Gmail" aria-describedby="basic-addon2 ">
+                        <div class="input-group-append ">
+                            <span class="input-group-text " id="basic-addon2 ">@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 ">
+                    <p class="text-light text-justify ">
+                        Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.
+                    </p>
+                    <p class="text-light text-justify " style="display: grid; ">
+                        <span>Linda Newman</span>
+                        <span>W325 State Road 123</span>
+                        <span>Mondovi, WI(Wisconsin) 98746-54321</span>
+                        <span>(715) 946 - 1234</span>
+                    </p>
+                </div>
+                <div class="col-sm-12 ">
+
+                    <textarea rows="6 " name="comment " form="usrform " class="rounded py-4 px-2 " style="width: 100%; " placeholder="Message:.... "></textarea>
+                    <button type="button " class="btn btn-primary mt-3 font-weight-bold " style=" padding: 5px 70px; ">Primary</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../../../lib/wow.js "></script>
+
+<script src="../../../lib/popper.min.js "></script>
+<script src="../../../lib/jquery-3.4.1.min.js "></script>
+<script src="../../../lib/js/bootstrap.min.js "></script>
+<script>
+    var wow = new WOW({
+        boxClass: 'wow ', // animated element css class (default is wow)
+        animateClass: 'animated ', // animation css class (default is animated)
+        offset: 0, // distance to the element when triggering the animation (default is 0)
+        mobile: true, // trigger animations on mobile devices (default is true)
+        live: true, // act on asynchronously loaded content (default is true)
+        callback: function(box) {
+            // the callback is fired every time an animation is started
+            // the argument that is passed in is the DOM node being animated
+        },
+        scrollContainer: null, // optional scroll container selector, otherwise use window,
+        resetAnimation: true, // reset animation on end (default is true)
+    });
+    wow.init();
+</script>
+
+</html>
