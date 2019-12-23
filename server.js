@@ -52,7 +52,7 @@ server.post('/login', function(req, res, next) {
 })
 
 
-server.listen(3000, function() {
+server.listen(process.env.PORT || 3000, function() {
     console.log('listen on 3000');
 })
 
