@@ -14,9 +14,9 @@ var userRouter = require('./router/userRouter.js');
 
 server.use(express.urlencoded())
 
-// server.use('/', express.static(path.join(__dirname, './public')))
+server.use('/', express.static(path.join(__dirname, './public')))
 
-// server.use('/api/v4/user', userRouter);
+server.use('/api/v4/user', userRouter);
 
 // server.get('/download', function(req, res) {
 //     res.download(path.join(__dirname, 'public/image/bg-banner.png'))
@@ -40,7 +40,7 @@ server.post('/login', function(req, res, next) {
         res.json(
             // "Chúc bạn đã đăng nhập thành công"
             // alert('dang nhap thành công')
-            { status: 200, message: "dang nhap thanh cong roi" }
+            { status: 200, message: "Đăng nhập thành công" }
         )
     } else {
         isLogin = false

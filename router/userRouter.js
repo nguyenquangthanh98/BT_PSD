@@ -17,7 +17,7 @@ router.get("/features", (req, res) => {
     res.sendFile(path.join(__dirname, '../public/html/features.html'))
 })
 router.get("/login", (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/html/dangnhap.html'))
+    res.sendFile(path.join(__dirname, '../public/html/home.html'))
 })
 console.log(__dirname);
 module.exports = router;
