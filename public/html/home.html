@@ -7,16 +7,84 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../lib/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../lib/css/animate.css">
 </head>
 
 <body>
+    <div class="header">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand text-uppercase font-weight-bold" style="font-size: 1.3em;" href="#">N<span
+                            class="text-primary">Q</span>T</a>
+                <button class="navbar-toggler border-light" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item  active">
+                            <a class="nav-link  text font-weight-bold text-uppercase text-light" style="font-size: 1.2em" href="./">Home</a>
+                        </li>
+                        <li class="nav-item  text">
+                            <a class="nav-link text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./services">services</a>
+                        </li>
+                        <li class="nav-item text">
+                            <a class="nav-link  text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./features">features</a>
+                        </li>
+                        <li class="nav-item text">
+                            <a class="nav-link   text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item text">
+                            <a class="nav-link  text font-weight-bold text-uppercase text-light" style="font-size: 1.2em;" href="./contact">contact</a>
+                        </li>
 
-    <h1>HOME</h1>
-    <p id="text"></p>
-    <input id="user" type="text" name="user" placeholder="Username">
-    <input id="pass" type="text" name="pass" placeholder="Password">
-    <button id="button-login" type="button">Login</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div>
+        <from>
+            <h1>Đăng nhập</h1>
+            <p id="text"></p>
+            <div>
+                <span>User name:</span>
+                <input class="form-group" id="user" type="text" name="user" placeholder="Username">
+            </div>
+            <div>
+                <span>Password: </span>
+                <input class="form-group" id="pass" type="text" name="pass" placeholder="Password">
+            </div>
+            <button id="button-login" type="button">Login</button>
+        </from>
+
+    </div>
+
+
 </body>
 <script src="/js/handleLogin.js"></script>
+<script src="../../../lib/wow.js "></script>
+
+<script src="../../../lib/popper.min.js "></script>
+<script src="../../../lib/jquery-3.4.1.min.js "></script>
+<script src="../../../lib/js/bootstrap.min.js "></script>
+<script>
+    var wow = new WOW({
+        boxClass: 'wow ', // animated element css class (default is wow)
+        animateClass: 'animated ', // animation css class (default is animated)
+        offset: 0, // distance to the element when triggering the animation (default is 0)
+        mobile: true, // trigger animations on mobile devices (default is true)
+        live: true, // act on asynchronously loaded content (default is true)
+        callback: function(box) {
+            // the callback is fired every time an animation is started
+            // the argument that is passed in is the DOM node being animated
+        },
+        scrollContainer: null, // optional scroll container selector, otherwise use window,
+        resetAnimation: true, // reset animation on end (default is true)
+    });
+    wow.init();
+</script>
 
 </html>
