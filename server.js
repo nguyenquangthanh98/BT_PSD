@@ -10,7 +10,7 @@ var express = require('express')
 var server = express()
 var fs = require('fs')
 var path = require('path');
-// var userRouter = require('./router/userRouter.js');
+var userRouter = require('./router/userRouter.js');
 
 server.use(express.urlencoded())
 
